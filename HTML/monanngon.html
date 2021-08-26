@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Món Ăn Ngon</title>
+	<link rel="stylesheet" href="../CSS/home.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <style>
+        .back-to-top {
+          display: inline-block;
+          background:#189E06;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          border-radius: 4px;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          transition: background-color .3s,
+              opacity .5s, visibility .5s;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 1000;
+        }
+        .back-to-top::after{
+          content:"";
+          font-weight: normal;
+          font-style: normal;
+          font-size: 1em;
+          line-height: 38px;
+          color: #fff;
+          cursor: pointer;
+        }
+        .show-back-to-top{
+          opacity: 1;
+          visibility: visible;
+        }
+   </style>
+</head>
+<body>
+	<a class="back-to-top"><i class="fas fa-chevron-up" style="color: white"></i></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $(window).scroll(function(){
+        let marginWithTop =$(window).scrollTop();
+        if (marginWithTop > 300) {
+          $('.back-to-top').addClass('show-back-to-top');
+        } else {
+          $('.back-to-top').removeClass('show-back-to-top');
+        }
+      })
+      $('.back-to-top').click(function() {
+         $('html,body').animate({scrollTop:0},'300')
+      })
+    })
+  </script>
+<header id="header" class="">
+	<div class="container">
+  	    <a class="navbar-brand" href="#">
+            <img src="../Images/logo.png" height="80"><font style="font-size: 30px;color: #189E06">DẠY NẤU ĂN</font>
+        </a>
+    </div>
+  	<nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        	
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active" id="a1">
+        <a class="nav-link" href="home.html">Trang Chủ</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="about.html">Cách Nấu</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="room.html">Dịp Nấu</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Địa Điểm Ăn Uống</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="News.html">Mẹo Vặt</a>
+      </li>
+      <li class="nav-item dropdown" id="page">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Món Ăn Ngon
+        </a>
+        <div class="dropdown-menu" style="background-color: #189E06"aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Món Ngon Đãi Tiệc</a>
+          <a class="dropdown-item" href="#">Món Ngon Ngày Tết</a>
+          <a class="dropdown-item" href="#">Món Ngon Cuối Tuần</a>
+          <a class="dropdown-item" href="#">Hôm Nay Ăn Gì?</a>
+          <a class="dropdown-item" href="#">Món Ngon Cho Bé</a>
+          <a class="dropdown-item" href="#">Món Ăn Sáng</a>
+        </div>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Tin Tức</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Cửa Hàng</a>
+      </li>
+    </ul>
+    <div class="btn ml-auto">
+        <a href="dangnhap.html"><button type="button" class="btn btn-success">Đăng Nhập</button></a>&nbsp;
+        <a href="dangki.html"><button type="button" class="btn btn-success">Đăng Kí</button></a>
+    </div>                
+    </div>
+    </div>
+</nav>
+</header>
+	<div class="container-fluid" style="background-color: #EEEEEE">
+      <div class="row padding">
+          <div class="col-md-12">
+              <p style="margin-left: 70px">Trang Chủ >> Món Ăn Ngon</p>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid" style="width: 90%">
+      <div class="card" style="width: 100%;border-radius: 0px;margin-top: 20px;margin-bottom: 60px">
+          <div class="row">
+             <div class="col-md-8">
+                <h4 style="text-align: center">MÓN ĂN NGON</h4>
+                <hr>
+                <p style="text-align: justify">Chuyên mục món ăn ngon tập trung các công thức dạy nấu ăn ngon từ cơ bản đến nâng cao, hướng dẫn chế biến những món ăn bổ dưỡng và hấp dẫn, ứng dụng phổ biến trong nấu ăn gia đình hoặc đãi tiệc. Bên cạnh đó, những phương pháp nấu nướng hiệu quả giúp bảo toàn chất dinh dưỡng trong quá trình chế biến cũng như bí quyết nêm nếm gia vị đậm đà phù hợp với khẩu vị người Việt cũng sẽ được bật mí trong chuyên mục món ăn ngon, cho bữa cơm gia đình thêm tròn vị.</p>
+                <h4 style="color: #189E06"> CÁC MÓN ĂN NGON</h4>
+                <hr>
+                <div class="row">
+                   <div class="col-md-4">
+                      <div class="card">
+                        <a href="#">
+                          <div class="thumbnail">
+                            <img src="../Images/banhpho.jpg" class="img-fluid">
+                          </div>
+                        </a>
+                        <h6 style="text-align: center">Bánh Phở Chiên Phồng</h6>
+                        <p style="text-align: justify">Bánh phở chiên phồng có mùi vị đậm đà của thịt bò, cảm giác giòn...</p>
+                      </div>
+                   </div>
+                   <div class="col-md-4">
+                       <div class="card">
+                        <a href="#">
+                          <div class="thumbnail">
+                            <img src="../Images/miquang.jpg" class="img-fluid">
+                          </div>
+                        </a>
+                        <h6 style="text-align: center">Mì Quảng Thịt Heo</h6>
+                        <p style="text-align: justify">Mì Quảng là món ăn đặc sản của vùng đất Quảng Nam, Đà Nẵng. Món ăn...</p>
+                      </div>
+                   </div>
+                   <div class="col-md-4">
+                     <div class="card">
+                        <a href="#">
+                          <div class="thumbnail">
+                            <img src="../Images/hausua.jpg" class="img-fluid">
+                          </div>
+                        </a>
+                        <h6 style="text-align: center">Giải Đáp: Hàu Sữa Làm Món Gì Ngon?</h6>
+                        <p style="text-align: justify">Hàu là loại thực phẩm bổ dưỡng được dùng chế biến thành rất nhiều...</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="row">
+                   <div class="col-md-4">
+                     <div class="card">
+                        <a href="#">
+                          <div class="thumbnail">
+                            <img src="../Images/cachem.jpg" class="img-fluid">
+                          </div>
+                        </a>
+                        <h6 style="text-align: center">Cá Chẽm Làm Món Gì?</h6>
+                        <p style="text-align: justify">Cá chẽm là thực phẩm bổ dưỡng được dùng chế biến thành nhiều món...</p>
+                      </div>
+                   </div>
+                   <div class="col-md-4">
+                     <div class="card">
+                        <a href="#">
+                          <div class="thumbnail">
+                            <img src="../Images/doitruong.jpg" class="img-fluid">
+                          </div>
+                        </a>
+                        <h6 style="text-align: center">Dồi Trường Làm Món Gì Ngon?</h6>
+                        <p style="text-align: justify">Dồi trường là gì? Dồi trường làm món gì ngon? Cách chế biến các món...</p>
+                      </div>
+                   </div>
+                   <div class="col-md-4">
+                     <div class="card">
+                        <a href="#">
+                          <div class="thumbnail">
+                            <img src="../Images/monanmuahe.jpg" class="img-fluid">
+                          </div>
+                        </a>
+                        <h6 style="text-align: center">Những Món Ăn Ngon Mùa Hè Miền Bắc</h6>
+                        <p style="text-align: justify">Ẩm thực miền Bắc luôn cuốn hút người ăn bởi hương vị độc đáo và...</p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-4">
+              <h4>MÓN ĂN NGON</h4>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngondaitiec.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON ĐÃI TIỆC</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngonngaytet.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON NGÀY TẾT</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngoncuoituan.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON CUỐI TUẦN</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngonchobe.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON CHO BÉ</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monansang.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN ĂN SÁNG</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/homnayangi.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>HÔM NAY ĂN GÌ ?</h5>
+                    </div>
+                  </div>
+             </div>
+          </div>
+      </div>
+  </div>
+	<footer>
+		<div class="container padding" style="background-color:rgba(50,50,50,0.7);color: white">
+			<div class="row padding">
+				<div class="col-md-4" style="text-align: justify">
+					<h6 style="margin-top:20px">GIỚI THIỆU <font style="color:#189E06">DAYNAUAN.VN</font></h6>
+					<p>Daynauan.vn là một trong những trang website dạy nấu ăn đơn giản cho đến chuyên nghiệp với những phương pháp chế biến món ăn ngon đơn giản, ứng dụng hàng ngày trong các buổi tiệc hay bữa cơm gia đình Việt Nam. Bên cạnh đó, chúng tôi còn liên kết đào tạo với những <font style="color:#189E06"> trường dạy nấu ăn</font> hàng đầu tại thành phố Đà Nẵng để thường xuyên mở những lớp đầu bếp gia đình cho người nội trợ...</p>
+				</div>
+				<div class="col-md-5">
+					<div class="row padding">
+						<div class="col-md-12">
+							<h6 style="margin-top:20px">CÁCH NẤU CÁC MÓN ĂN</h6>
+						</div>
+					</div>
+					<div class="row padding">
+						<div class="col-md-6">
+							<p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Mì Quảng</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu các món Lẩu</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Mỳ Ý</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Phở</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bún</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Hủ Tiếu</p>
+						</div>
+						<div class="col-md-6">
+							<p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Cơm Tấm</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu món Dê</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bò Kho</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học mở Quán Nướng</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học làm Bò Né</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bánh Canh</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row padding">
+						<div class="col-md-12">
+							<h6 style="margin-top:20px">KẾT NỐI VỚI CHÚNG TÔI</h6>
+						</div>
+					</div>
+					<div class="row padding">
+						<div class="col-md-10">
+							<div>
+					           <font style="color:#189E06"><i class="fas fa-map-marker-alt"> </i></font><span> Địa chỉ: Quận Ngũ Hành Sơn, TP Đà Nẵng.</span><br>
+					           <font style="color:#189E06"><i class="fas fa-phone-square"></i></font> <span>Điện Thoại: 0354941620</span><br>
+					           <font style="color:#189E06"><i class="fas fa-phone-volume"></i></font><span> Hotline:11-222-333-5555</span><br>
+				             <font style="color:#189E06"><i class="far fa-envelope-open"></i></font><span> Email:abcd@sict.udn.vn</span><br>
+				                <font style="color:#189E06"><i class="fas fa-globe"></i></font> <span> Website:daynauan.vn</span><br>	
+				            </div>
+				            <div class="social padding">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+					            <a href="#"><i class="fab fa-twitter"></i></a>
+					            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+					            <a href="#"><i class="fab fa-instagram"></i></a>
+					            <a href="#"><i class="fab fa-youtube"></i></a>
+				            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

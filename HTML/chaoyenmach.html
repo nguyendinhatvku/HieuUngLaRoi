@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Cách Nấu Cháo Yến Mạch</title>
+	<link rel="stylesheet" href="../CSS/home.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <style>
+        .back-to-top {
+          display: inline-block;
+          background:#189E06;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          border-radius: 4px;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          transition: background-color .3s,
+              opacity .5s, visibility .5s;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 1000;
+        }
+        .back-to-top::after{
+          content:"";
+          font-weight: normal;
+          font-style: normal;
+          font-size: 1em;
+          line-height: 38px;
+          color: #fff;
+          cursor: pointer;
+        }
+        .show-back-to-top{
+          opacity: 1;
+          visibility: visible;
+        }
+   </style>
+</head>
+<body>
+	<a class="back-to-top"><i class="fas fa-chevron-up" style="color: white"></i></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $(window).scroll(function(){
+        let marginWithTop =$(window).scrollTop();
+        if (marginWithTop > 300) {
+          $('.back-to-top').addClass('show-back-to-top');
+        } else {
+          $('.back-to-top').removeClass('show-back-to-top');
+        }
+      })
+      $('.back-to-top').click(function() {
+         $('html,body').animate({scrollTop:0},'300')
+      })
+    })
+  </script>
+<header id="header" class="">
+	<div class="container">
+  	    <a class="navbar-brand" href="#">
+            <img src="../Images/logo.png" height="80"><font style="font-size: 30px;color: #189E06">DẠY NẤU ĂN</font>
+        </a>
+    </div>
+  	<nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        	
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active" id="a1">
+        <a class="nav-link" href="home.html">Trang Chủ</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="about.html">Cách Nấu</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="room.html">Dịp Nấu</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Địa Điểm Ăn Uống</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="News.html">Mẹo Vặt</a>
+      </li>
+      <li class="nav-item dropdown" id="page">
+        <a class="nav-link dropdown-toggle" href="monanngon.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Món Ăn Ngon
+        </a>
+        <div class="dropdown-menu" style="background-color: #189E06"aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Món Ngon Đãi Tiệc</a>
+          <a class="dropdown-item" href="#">Món Ngon Ngày Tết</a>
+          <a class="dropdown-item" href="#">Món Ngon Cuối Tuần</a>
+          <a class="dropdown-item" href="#">Hôm Nay Ăn Gì?</a>
+          <a class="dropdown-item" href="#">Món Ngon Cho Bé</a>
+          <a class="dropdown-item" href="#">Món Ăn Sáng</a>
+        </div>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Tin Tức</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Cửa Hàng</a>
+      </li>
+    </ul>
+    <div class="btn ml-auto">
+        <a href="dangnhap.html"><button type="button" class="btn btn-success">Đăng Nhập</button></a>&nbsp;
+        <a href="dangki.html"><button type="button" class="btn btn-success">Đăng Kí</button></a>
+    </div>                
+    </div>
+    </div>
+</nav>
+</header>
+	<div class="container-fluid padding" style="width: 90%">
+		<div class="row padding">
+			<div class="col-md-8">
+				<h4 style="margin-top: 30px;font-weight: 600">CHÁO YẾN MẠCH</h4>
+                <hr>
+          <h4>Cách Nấu Cháo Yến Mạch Thịt Bằm</h4>     
+          <h5>1.1. Nguyên Liệu</h5>  
+          <ul>
+            <li>150 gram  thịt bò băm</li>
+            <li>70 gram yến mạch</li>
+            <li>1/2 củ cà rốt</li>
+            <li>1 Muỗng cà phê hạt nêm</li>
+            <li>2 nhánh hành lá</li>
+            <li>1/3 muỗng cà phê tiêu</li>
+            <li>1 củ tỏi băm</li>
+            <li>1 củ hành tím băm</li>
+            <li>2 muỗng cà phê dầu ăn</li>
+          </ul> 
+          <h5>1.2. Hướng dẫn cách nấu cháo yến mạch thịt bằm</h5> 
+          <ul>
+            <li>Cà rốt gọt vỏ, cắt hạt lựu. Hành lá rửa sạch, cắt nhuyễn. cho thịt bò băm ướp với tỏi, hành tím hành lá, hạt nêm</li>
+            <li>Làm nóng 2 muỗng cà phê dầu ăn, cho thịt bò vào xào nhanh. Khoảng 2 phút thì tắt bếp,múc thịt bò ra.</li>
+          </ul> 
+<a href="#" style="margin-left: 100px"><img src="../Images/xao-thit-bam.jpg" class="img-fluid"></a>
+                 <p style="text-align: center">Sơ chế cà rốt và xào thịt bò băm. Ảnh: Internet</p>
+                 <ul>
+                   <li>Bắc nồi nước lên bếp,cho cà rốt vào cho đến khi mềm,hạ lửa nhỏ, trút bột yến mạch vào.Nấu khoảng 5 phút,trút thịt bò vào nấu khoảng 3 phút nữa.Nêm lại gia vị vừa ăn và tắt bếp. Rắc thêm ít hành lá và tiêu xay cho thơm.</li>
+                 </ul>
+                 <a href="#" style="margin-left: 100px"><img src="../Images/chao-yen-mach-thit-bam-ngon.jpg" class="img-fluid"></a>
+                 <p style="text-align: center">Cháo yến mạch thịt băm rất nhiều dinh dưỡng. Ảnh: Internet</p>
+			</div>
+			<div class="col-md-4">
+				<div class="row padding">
+					<div class="col-md-12">
+						<div class="card" id="card1"style="background: #F2F2F2;border-radius: 0px;border: none;margin-top: 30px;text-align: justify">
+                            <div class="row padding" >
+                            	<div class="col-md-12" >
+                            		<div class="card" style="background-color: #189E06;border-radius: 0px" >
+                            		<h5 style="margin-top: 7px;margin-bottom: 7px;margin-left: 8px;color: white">Chủ đề nổi bật</h5>
+                            	    </div>
+                            	</div>
+                            </div>
+                            <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="chaoyenmach.html">
+                            			<div class="thumbnail">
+                            				<img src="../Images/chaoyenmach.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="chaoyenmach.html" id="a1" style="color: #189E06"><p >Cách nấu cháo yến mạch</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/botaichanh.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#"id="a1" style="color: #189E06"><p>Cách làm bò tái chanh</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/chebap.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách nấu chè bắp</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/thitkhotau.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách nấu thịt kho tàu</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/xoigac.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách nấu xôi gấc</p></a>
+                            	</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-12">
+						<div class="card" id="card1"style="background: #F2F2F2;border-radius: 0px;border: none;margin-top: 30px">
+                            <div class="row padding"  >
+                            	<div class="col-md-12" >
+                            		<div class="card" style="background-color: #189E06;border-radius: 0px">
+                            		<h5 style="margin-top: 7px;margin-bottom: 7px;margin-left: 8px;color: white">Bài viết xem nhiều</h5>
+                            	    </div> 
+                            	</div>
+                            </div>
+                            <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/nuoccham.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>7 cách làm nước chấm thịt nướng thơm ngon chuẩn vị nhà hàng</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/changa.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách làm nước chấm chân gà ngâm sả ớt ngon với 3 bước cực đơn giản</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/nuocsot.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>6 cách làm nước sốt trộn salad rau đậm đà, cả nhà mê</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/mamnem.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>3 cách pha mắm nêm ngon dậy hương, đậm đà không nên bỏ lỡ</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/tuongot.png" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>8 cách làm tương ớt ngon tại nhà, không bị váng, để được lâu</p></a>
+                            	</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-md-12">
+						<div class="card" id="card1"style="background: #F2F2F2;border-radius: 0px;border: none;margin-top: 30px">
+                            <div class="row padding" >
+                            	<div class="col-md-12" >
+                            		<div class="card" style="background-color: #189E06;border-radius: 0px" >
+                            		<h5 style="margin-top: 7px;margin-bottom: 7px;margin-left: 8px;color: white">Bài viết mới nhất</h5>
+                            	    </div>
+                            	</div>
+                            </div>
+                            <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/sinhto.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách làm sinh tố thơm nguyên chất kết hợp trái cây thơm ngon</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/bonhung.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách làm bò nhúng ớt cay ngon chuẩn vị đặc sản Đà Lạt</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/tiato.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách làm bò nhúng mẻ lá tía tô cuốn bánh tráng mềm ngon</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/hutieu.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách nấu hủ tiếu mực tươi thịt bằm đơn giản mà ngon kiểu miền Tây</p></a>
+                            	</div>
+                            </div>
+                            <hr>
+                             <div class="row padding">
+                            	<div class="col-md-4" style="margin-left: 10px">
+                            		<a href="#">
+                            			<div class="thumbnail">
+                            				<img src="../Images/nuocepca.jpg" class="img-fluid">
+                            			</div>
+                            		</a>
+                            	</div>
+                            	<div class="col-md-7">
+                            		<a href="#" id="a1" style="color: #189E06"><p>Cách làm nước ép cà chua giảm cân, đẹp da, để được lâu</p></a>
+                            	</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container padding" style="background-color:rgba(50,50,50,0.7);color: white">
+			<div class="row padding">
+				<div class="col-md-4" style="text-align: justify">
+					<h6 style="margin-top:20px">GIỚI THIỆU <font style="color:#189E06">DAYNAUAN.VN</font></h6>
+					<p>Daynauan.vn là một trong những trang website dạy nấu ăn đơn giản cho đến chuyên nghiệp với những phương pháp chế biến món ăn ngon đơn giản, ứng dụng hàng ngày trong các buổi tiệc hay bữa cơm gia đình Việt Nam. Bên cạnh đó, chúng tôi còn liên kết đào tạo với những <font style="color:#189E06"> trường dạy nấu ăn</font> hàng đầu tại thành phố Đà Nẵng để thường xuyên mở những lớp đầu bếp gia đình cho người nội trợ...</p>
+				</div>
+				<div class="col-md-5">
+					<div class="row padding">
+						<div class="col-md-12">
+							<h6 style="margin-top:20px">CÁCH NẤU CÁC MÓN ĂN</h6>
+						</div>
+					</div>
+					<div class="row padding">
+						<div class="col-md-6">
+							<p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Mì Quảng</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu các món Lẩu</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Mỳ Ý</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Phở</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bún</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Hủ Tiếu</p>
+						</div>
+						<div class="col-md-6">
+							<p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Cơm Tấm</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu món Dê</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bò Kho</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học mở Quán Nướng</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học làm Bò Né</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bánh Canh</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row padding">
+						<div class="col-md-12">
+							<h6 style="margin-top:20px">KẾT NỐI VỚI CHÚNG TÔI</h6>
+						</div>
+					</div>
+					<div class="row padding">
+						<div class="col-md-10">
+							<div>
+					           <font style="color:#189E06"><i class="fas fa-map-marker-alt"> </i></font><span> Địa chỉ: Quận Ngũ Hành Sơn, TP Đà Nẵng.</span><br>
+					           <font style="color:#189E06"><i class="fas fa-phone-square"></i></font> <span>Điện Thoại: 0354941620</span><br>
+					           <font style="color:#189E06"><i class="fas fa-phone-volume"></i></font><span> Hotline:11-222-333-5555</span><br>
+				             <font style="color:#189E06"><i class="far fa-envelope-open"></i></font><span> Email:abcd@sict.udn.vn</span><br>
+				                <font style="color:#189E06"><i class="fas fa-globe"></i></font> <span> Website:daynauan.vn</span><br>	
+				            </div>
+				            <div class="social padding">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+					            <a href="#"><i class="fab fa-twitter"></i></a>
+					            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+					            <a href="#"><i class="fab fa-instagram"></i></a>
+					            <a href="#"><i class="fab fa-youtube"></i></a>
+				            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

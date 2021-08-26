@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Cách nấu mì quảng thịt heo</title>
+	<link rel="stylesheet" href="../CSS/home.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <style>
+        .back-to-top {
+          display: inline-block;
+          background:#189E06;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          border-radius: 4px;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          transition: background-color .3s,
+              opacity .5s, visibility .5s;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 1000;
+        }
+        .back-to-top::after{
+          content:"";
+          font-weight: normal;
+          font-style: normal;
+          font-size: 1em;
+          line-height: 38px;
+          color: #fff;
+          cursor: pointer;
+        }
+        .show-back-to-top{
+          opacity: 1;
+          visibility: visible;
+        }
+   </style>
+</head>
+<body>
+	<a class="back-to-top"><i class="fas fa-chevron-up" style="color: white"></i></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $(window).scroll(function(){
+        let marginWithTop =$(window).scrollTop();
+        if (marginWithTop > 300) {
+          $('.back-to-top').addClass('show-back-to-top');
+        } else {
+          $('.back-to-top').removeClass('show-back-to-top');
+        }
+      })
+      $('.back-to-top').click(function() {
+         $('html,body').animate({scrollTop:0},'300')
+      })
+    })
+  </script>
+<header id="header" class="">
+	<div class="container">
+  	    <a class="navbar-brand" href="#">
+            <img src="../Images/logo.png" height="80"><font style="font-size: 30px;color: #189E06">DẠY NẤU ĂN</font>
+        </a>
+    </div>
+  	<nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        	
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active" id="a1">
+        <a class="nav-link" href="home.html">Trang Chủ</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="about.html">Cách Nấu</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="room.html">Dịp Nấu</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Địa Điểm Ăn Uống</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="News.html">Mẹo Vặt</a>
+      </li>
+      <li class="nav-item dropdown" id="page">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Món Ăn Ngon
+        </a>
+        <div class="dropdown-menu" style="background-color: #189E06"aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Món Ngon Đãi Tiệc</a>
+          <a class="dropdown-item" href="#">Món Ngon Ngày Tết</a>
+          <a class="dropdown-item" href="#">Món Ngon Cuối Tuần</a>
+          <a class="dropdown-item" href="#">Hôm Nay Ăn Gì?</a>
+          <a class="dropdown-item" href="#">Món Ngon Cho Bé</a>
+          <a class="dropdown-item" href="#">Món Ăn Sáng</a>
+        </div>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Tin Tức</a>
+      </li>
+      <li class="nav-item" id="a1">
+        <a class="nav-link" href="#">Cửa Hàng</a>
+      </li>
+    </ul>
+    <div class="btn ml-auto">
+        <a href="dangnhap.html"><button type="button" class="btn btn-success">Đăng Nhập</button></a>&nbsp;
+        <a href="dangki.html"><button type="button" class="btn btn-success">Đăng Kí</button></a>
+    </div>                
+    </div>
+    </div>
+</nav>
+</header>
+	<div class="container-fluid" style="background-color: #EEEEEE">
+      <div class="row padding">
+          <div class="col-md-12">
+              <p style="margin-left: 70px">Trang Chủ >> Món Ăn Ngon >> Mì Quảng Thịt Heo</p>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid" style="width: 90%">
+      <div class="card" style="width: 100%;border-radius: 0px;margin-top: 20px;margin-bottom: 60px">
+          <div class="row">
+             <div class="col-md-8">
+                <h4 style="text-align: center">MÌ QUẢNG THỊT HEO</h4>
+                <hr>
+                <p style="text-align: justify">Cách nấu mì Quảng thịt heo là công thức đã và đang được rất nhiều người săn tìm.Bạn đã sẵn sàng vào bếp chuẩn bị chế biến và chinh phục món ăn thơm ngon, nổi tiếng này chưa?</p>
+                <a href="#" style="margin-left: 100px"><img src="../Images/mi-quang-thit-heo.jpg" class="img-fluid"></a>
+               <p style="text-align: center">Mì Quảng thịt heo là món ăn quen thuộc của người dân miền Trung. Ảnh: Internet</p>
+                 <p style="text-align: justify">Mì Quảng là món ăn đặc sản của vùng đất Quảng Nam, Đà Nẵng. Món ăn này không chỉ nổi tiếng ở khu vực miền Trung mà đã trở thành món ngon được người dân trên mọi miền đất nước yêu thích. Sợi mì mềm dai, nước dùng đậm đà của mì Quảng sẵn sàng làm say mê bất cứ ai ngay từ lần đầu thưởng thức.</p>
+                 <h4>NGUYÊN LIỆU</h4>
+                 <ul>
+                   <li>500g mì Quảng tươi</li>
+                   <li>500g thịt heo</li>
+                   <li>1 lít nước dừa tươi</li>
+                   <li>2 trái ớt chín</li>
+                   <li>1 củ tỏi</li>
+                   <li>1 trái chanh</li>
+                   <li>1 muỗng hạt điều màu</li>
+                   <li>Đậu phộng</li>
+                   <li>Bánh tráng nướng</li>
+                   <li>Rau thơm, rau sống: húng lủi, húng quế, cải non, giá đỗ, hành lá, hoa chuối bào</li>
+                   <li>Gia vị: nước mắm, tiêu xay, đường, muối, hạt nêm, ớt sa tế, bột ngọt</li>
+                 </ul>
+                 <h4>CÁC BƯỚC NẤU MÌ QUẢNG THỊT HEO</h4>
+                 <h6>BƯỚC 1: SƠ CHẾ THỊT HEO</h6>
+                 <p>Dùng muối chà xát lên miếng thịt heo rồi rửa lại nhiều lần với nước sạch, để ráo. Sau đó, cắt thịt heo thành những miếng nhỏ vừa ăn.</p>
+                 <p>Ớt rửa sạch, chần sơ qua với nước sôi rồi vớt ra ngoài, băm nhuyễn cùng với củ tỏi. Lúc này, bạn cho thịt heo vào tô, thêm 1/2 phần ớt tỏi băm nhuyễn và các loại gia vị nước mắm, tiêu xay, hạt nêm, đường vào cùng. Bí quyết trong cách nấu mì Quảng miền Trung ngon đậm đà là ướp thịt trong khoảng 30 phút.</p>
+                 <a href="#" style="margin-left: 100px"><img src="../Images/uop-thit-heo.jpg" class="img-fluid"></a>
+                 <p style="text-align: center">Ướp thịt heo với gia vị trong khoảng 30 phút. Ảnh: Internet</p>
+                 <h6>BƯỚC 2: XÀO THỊT HEO</h6>
+                 <p>Bắc chảo dầu lên bếp rồi cho hạt điều màu vào đảo đều để làm nước màu điều. Khi dầu chuyển sang màu vàng nâu đẹp mắt, vớt hạt điều màu ra ngoài và cho 1/2 phần tỏi ớt băm còn lại vào phi thơm.</p>
+                 <p>Tỏi ớt bắt đầu thơm, bạn cho thịt heo đã ướp vào chảo đảo đều. Quan sát thấy thịt heo săn lại thì tắt bếp.</p>
+                 <h6>BƯỚC 3: NẤU NƯỚC DÙNG</h6>
+                 <p>Cho nước dừa vào trong nồi, thêm thịt heo đã xào săn vào cùng rồi bắc lên bếp nấu cho thịt chín mềm. Khi nước dùng sôi, bạn cho nêm nếm gia vị lại sao cho phù hợp với khẩu vị người ăn.</p>
+                 <a href="#" style="margin-left: 100px"><img src="../Images/dung-nuoc-dua-tuoi.jpg" class="img-fluid"></a>
+                 <p style="text-align: center">Dùng nước dừa tươi nấu nước dùng để tạo vị ngọt tự nhiên cho món ăn. Ảnh: Internet</p>
+                  <h6>BƯỚC 4: SƠ CHẾ CÁC NGUYÊN LIỆU CÒN LẠI, LÀM NƯỚC CHẤM</h6>
+                  <p>Cho đậu phộng vào chảo, thêm ít muối rồi rang chín. Khi đậu chín giòn, đợi nguội bớt, dùng tay chà xát cho bóc lớp vỏ ngoài, sau đó cho đậu phộng vào cối giã dập.</p>
+                  <p>Nhặt bỏ các lá úa vàng, phần gốc rễ của các loại rau thơm, rau sống. Cho rau vào thau nước muối pha loãng ngâm khoảng 10 phút rồi vớt ra rửa sạch lại, để ráo.</p>
+                  <p>Pha nước chấm ăn kèm theo công thức: 3 muỗng canh nước mắm, 1/3 muỗng cà phê bột ngọt, ít ớt, tỏi băm nhỏ, khuấy đều.</p>
+                  <a href="#" style="margin-left: 100px"><img src="../Images/rau-cai-non.jpg" class="img-fluid"></a>
+                 <p style="text-align: center">Rau cải non, hoa chuối bào là loại rau ăn kèm đặc trưng của mì Quảng. Ảnh: Internet</p>
+                  <h6>BƯỚC 5:HOÀN THÀNH VÀ TRÌNH BÀY </h6>
+                  <p>Xếp rau ra đĩa, chuẩn bị thêm ớt trái, chanh cắt lát, chén nước chấm và bánh tráng nướng ăn kèm.</p>
+                  <p>Bạn cho sợi mì Quảng vào tô, chan nước dùng thịt heo vào rồi cho đậu phộng rang lên trên. Bây giờ, bạn đã có thể thưởng thức tô mì Quảng thịt heo nóng hổi, thơm ngon, có hương vị đậm đà.</p>
+                   <a href="#" style="margin-left: 100px"><img src="../Images/hoan-thanh-mi-quang-thit-heo.jpg" class="img-fluid"></a>
+                 <p style="text-align: center">Hoàn thành cách nấu mì Quảng thịt heo đơn giản sau 5 bước thực hiện. Ảnh: Internet</p>
+             </div>
+             <div class="col-md-4">
+              <h4>MÓN ĂN NGON</h4>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngondaitiec.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON ĐÃI TIỆC</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngonngaytet.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON NGÀY TẾT</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngoncuoituan.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON CUỐI TUẦN</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monngonchobe.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN NGON CHO BÉ</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/monansang.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>MÓN ĂN SÁNG</h5>
+                    </div>
+                  </div>
+                  <div class="row padding">
+                    <div class="col-md-6">
+                      <a href="#">
+                        <div class="thumbnail">
+                          <img src="../Images/homnayangi.jpg" class="img-fluid">
+                        </div>
+                      </a>
+                    </div>
+                     <div class="col-md-6">
+                      <h5>HÔM NAY ĂN GÌ ?</h5>
+                    </div>
+                  </div>
+             </div>
+          </div>
+      </div>
+  </div>
+	<footer>
+		<div class="container padding" style="background-color:rgba(50,50,50,0.7);color: white">
+			<div class="row padding">
+				<div class="col-md-4" style="text-align: justify">
+					<h6 style="margin-top:20px">GIỚI THIỆU <font style="color:#189E06">DAYNAUAN.VN</font></h6>
+					<p>Daynauan.vn là một trong những trang website dạy nấu ăn đơn giản cho đến chuyên nghiệp với những phương pháp chế biến món ăn ngon đơn giản, ứng dụng hàng ngày trong các buổi tiệc hay bữa cơm gia đình Việt Nam. Bên cạnh đó, chúng tôi còn liên kết đào tạo với những <font style="color:#189E06"> trường dạy nấu ăn</font> hàng đầu tại thành phố Đà Nẵng để thường xuyên mở những lớp đầu bếp gia đình cho người nội trợ...</p>
+				</div>
+				<div class="col-md-5">
+					<div class="row padding">
+						<div class="col-md-12">
+							<h6 style="margin-top:20px">CÁCH NẤU CÁC MÓN ĂN</h6>
+						</div>
+					</div>
+					<div class="row padding">
+						<div class="col-md-6">
+							<p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Mì Quảng</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu các món Lẩu</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Mỳ Ý</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Phở</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bún</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Hủ Tiếu</p>
+						</div>
+						<div class="col-md-6">
+							<p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Cơm Tấm</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu món Dê</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bò Kho</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học mở Quán Nướng</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học làm Bò Né</p>
+					        <p id="hocnau"><font style="color:#189E06">➤</font> Học nấu Bánh Canh</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row padding">
+						<div class="col-md-12">
+							<h6 style="margin-top:20px">KẾT NỐI VỚI CHÚNG TÔI</h6>
+						</div>
+					</div>
+					<div class="row padding">
+						<div class="col-md-10">
+							<div>
+					           <font style="color:#189E06"><i class="fas fa-map-marker-alt"> </i></font><span> Địa chỉ: Quận Ngũ Hành Sơn, TP Đà Nẵng.</span><br>
+					           <font style="color:#189E06"><i class="fas fa-phone-square"></i></font> <span>Điện Thoại: 0354941620</span><br>
+					           <font style="color:#189E06"><i class="fas fa-phone-volume"></i></font><span> Hotline:11-222-333-5555</span><br>
+				             <font style="color:#189E06"><i class="far fa-envelope-open"></i></font><span> Email:abcd@sict.udn.vn</span><br>
+				                <font style="color:#189E06"><i class="fas fa-globe"></i></font> <span> Website:daynauan.vn</span><br>	
+				            </div>
+				            <div class="social padding">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+					            <a href="#"><i class="fab fa-twitter"></i></a>
+					            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+					            <a href="#"><i class="fab fa-instagram"></i></a>
+					            <a href="#"><i class="fab fa-youtube"></i></a>
+				            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
